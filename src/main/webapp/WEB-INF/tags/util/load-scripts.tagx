@@ -20,7 +20,19 @@
   </c:set>
 
   <script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: '${fn:toLowerCase(userLocale)}'};</script>
-
+    <spring:url
+   		value="https://maps.googleapis.com/maps/api/js"
+   		var="google_map_url" >
+   		<spring:param name="v" value="3.exp"/>
+   		<!-- spring:param name="key" value="AIzaSyBVlh6Zu_x48qyzOA-ub6HD9NKb6trnkqw"/> -->
+   		<spring:param name="sensor" value="false"/>
+   	</spring:url>
+   	
+   	   	
+   	<script
+ 		type="text/javascript"
+ 		src="${google_map_url}">
+	</script>
   <script src="${dojo_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${spring_url}" type="text/javascript"><!-- /required for FF3 and Opera --></script>
   <script src="${spring_dojo_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
