@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><div version="2.0" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_gov_atlanta_cityvendors_domain_Location" modelAttribute="location" path="/locations" versionField="Version" z="+xJ5xuJti6e4Bw5iDZQAnoUaDAU=">
+        <field:input field="name" id="c_gov_atlanta_cityvendors_domain_Location_name" min="1" required="true" z="2IU7mvBLM1VGRxyBLsIfj+YhE/k="/>
+        <field:input field="longitude" id="c_gov_atlanta_cityvendors_domain_Location_longitude" required="true" validationMessageCode="field_invalid_integer" z="1z8fWzDAWkfoRFsXjAHHo4PsYQ0="/>
+        <field:input field="latitude" id="c_gov_atlanta_cityvendors_domain_Location_latitude" required="true" validationMessageCode="field_invalid_integer" z="i2ZOiC0cUba8Xi0I9hSHUwl+rLg="/>
+        <field:select field="vendor" id="c_gov_atlanta_cityvendors_domain_Location_vendor" itemValue="id" items="${vendors}" path="/vendors" z="uKFJFo38y32pELoMWXXMgnTJFZ0="/>
+    </form:update>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><div version="2.0" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_gov_atlanta_cityvendors_domain_Vendor" object="${vendor}" path="/vendors" z="HtZdmiw7DklKPLyQORqewZrSDUI=">
+        <field:display field="vendorName" id="s_gov_atlanta_cityvendors_domain_Vendor_vendorName" object="${vendor}" z="cj3c8YMXie/Y3y7yxeyUhrnzQBU="/>
+        <field:display field="description" id="s_gov_atlanta_cityvendors_domain_Vendor_description" object="${vendor}" z="H0M9y5lRanAA8VfujbGLxKNqGuY="/>
+        <field:display field="shortDescription" id="s_gov_atlanta_cityvendors_domain_Vendor_shortDescription" object="${vendor}" z="TUyf8YwelxLp1Q2gpko0V27iZSg="/>
+        <field:display field="location" id="s_gov_atlanta_cityvendors_domain_Vendor_location" object="${vendor}" z="KcrNV1v9ITDd9lbe7/geWLnsihM="/>
+    </page:show>
+</div>

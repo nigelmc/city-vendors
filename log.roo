@@ -1,0 +1,42 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-11-16 09:07:35
+project --topLevelPackage gov.atlanta.cityvendors --projectName city-vendors
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+entity jpa --class ~.domain.Vendor --sequenceName VEND_SEQ
+field string --fieldName vendorName --sizeMax 30 --class ~.domain.Vendor
+field string --fieldName description --notNull
+field string --fieldName shortDescription --class ~.domain.Vendor
+entity jpa --class ~.domain.Location --sequenceName LOC_SEQ
+field string --fieldName name --notNull --sizeMin 1
+field number --fieldName longitude --type java.lang.Integer --notNull
+field number --fieldName latitude --type java.lang.Integer --notNull
+field reference --fieldName vendor --type ~.domain.Vendor
+focus --class ~.domain.Vendor
+field reference --fieldName location --type ~.domain.Location
+finder list
+finder add --finderName findVendorsByLocation
+finder add --finderName findVendorsByDescription
+finder add --finderName findVendorsByVendorNameLike
+finder add --finderName findVendorsByLocation
+web mvc setup
+web mvc all --package ~.web
+web mvc finder all
+logging setup --level INFO
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-11-16 09:07:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-11-16 09:12:39
+web mvc json all
+web mvc json all
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-11-16 09:15:15
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-11-16 09:19:07
+web mvc all --package ~.web
+web mvc json all
+json all
+web mvc json all --package ~.web
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-11-16 09:20:29
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-11-16 09:28:28
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-11-16 09:31:15
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-11-16 09:46:59
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-11-16 09:51:59

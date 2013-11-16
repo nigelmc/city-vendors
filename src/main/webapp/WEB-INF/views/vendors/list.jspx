@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><div version="2.0" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_gov_atlanta_cityvendors_domain_Vendor" items="${vendors}" z="ZpZ8o+LxKJhrohHR3D3CaioHik8=">
+        <table:table data="${vendors}" id="l_gov_atlanta_cityvendors_domain_Vendor" path="/vendors" z="uUEfmrf1znMYQyE+G62E/hGuiIQ=">
+            <table:column id="c_gov_atlanta_cityvendors_domain_Vendor_vendorName" property="vendorName" z="PDqA389ol8HKGGqlaWfv5vAWm4A="/>
+            <table:column id="c_gov_atlanta_cityvendors_domain_Vendor_description" property="description" z="5a/wwaMUws14oRNsDCubuSZayZA="/>
+            <table:column id="c_gov_atlanta_cityvendors_domain_Vendor_shortDescription" property="shortDescription" z="IVCbWPgE2qQmwxLLNp+nNG72eiQ="/>
+            <table:column id="c_gov_atlanta_cityvendors_domain_Vendor_location" property="location" z="zRtCb6+JHMMOYbuD7S5cQ1RWXxI="/>
+        </table:table>
+    </page:list>
+</div>

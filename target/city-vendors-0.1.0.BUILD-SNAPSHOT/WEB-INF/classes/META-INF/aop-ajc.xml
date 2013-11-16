@@ -1,0 +1,24 @@
+<aspectj>
+<aspects>
+<aspect name="gov.atlanta.cityvendors.web.VendorController_Roo_Controller_Json"/>
+<aspect name="gov.atlanta.cityvendors.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_ToString"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Finder"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_JavaBean"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Configurable"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Jpa_Entity"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Json"/>
+<aspect name="gov.atlanta.cityvendors.web.VendorController_Roo_Controller_Finder"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_JavaBean"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Configurable"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Jpa_Entity"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_ToString"/>
+<aspect name="gov.atlanta.cityvendors.web.LocationController_Roo_Controller"/>
+<aspect name="gov.atlanta.cityvendors.web.VendorController_Roo_Controller"/>
+<aspect name="gov.atlanta.cityvendors.web.LocationController_Roo_Controller_Json"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Json"/>
+<aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Jpa_ActiveRecord"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+
