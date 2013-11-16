@@ -9,8 +9,8 @@
 <aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Jpa_Entity"/>
 <aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Json"/>
 <aspect name="gov.atlanta.cityvendors.web.VendorController_Roo_Controller_Finder"/>
-<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_JavaBean"/>
 <aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_Configurable"/>
+<aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_JavaBean"/>
 <aspect name="gov.atlanta.cityvendors.domain.Location_Roo_Jpa_Entity"/>
 <aspect name="gov.atlanta.cityvendors.domain.Vendor_Roo_ToString"/>
 <aspect name="gov.atlanta.cityvendors.web.LocationController_Roo_Controller"/>

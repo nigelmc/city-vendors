@@ -72,6 +72,7 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
       out.write("        };\n");
       out.write("        var map = new google.maps.Map(document.getElementById(\"map-canvas\"),\n");
       out.write("            mapOptions);\n");
+      out.write("        \n");
       out.write("        var marker = new google.maps.Marker({\n");
       out.write("            position: myLatlng,\n");
       out.write("            title:\"Vendor Location\"\n");
@@ -104,13 +105,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jsp.tag.web.form.show_tagx _jspx_th_page_005fshow_005f0 = new org.apache.jsp.tag.web.form.show_tagx();
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_page_005fshow_005f0);
     _jspx_th_page_005fshow_005f0.setJspContext(_jspx_page_context);
-    // /WEB-INF/views/locations/show.jspx(32,136) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(33,136) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setZ("DtKQhsLTqU5XdkmT9i8p2IgdmCY=");
-    // /WEB-INF/views/locations/show.jspx(32,136) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(33,136) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setPath("/locations");
-    // /WEB-INF/views/locations/show.jspx(32,136) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(33,136) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/locations/show.jspx(32,136) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(33,136) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setId("ps_gov_atlanta_cityvendors_domain_Location");
     _jspx_th_page_005fshow_005f0.setJspBody(new Helper( 0, _jspx_page_context, _jspx_th_page_005fshow_005f0, null));
     _jspx_th_page_005fshow_005f0.doTag();
@@ -127,13 +128,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
     _jspx_th_field_005fdisplay_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/locations/show.jspx(33,144) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(34,144) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setZ("oLATcreMWr5yHyT4rIsHsRf4oy8=");
-    // /WEB-INF/views/locations/show.jspx(33,144) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(34,144) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/locations/show.jspx(33,144) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(34,144) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setId("s_gov_atlanta_cityvendors_domain_Location_name");
-    // /WEB-INF/views/locations/show.jspx(33,144) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(34,144) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setField("name");
     _jspx_th_field_005fdisplay_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
@@ -149,13 +150,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
     _jspx_th_field_005fdisplay_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/locations/show.jspx(34,148) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(35,148) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setZ("Ctlfrz+mbM90O9FLFiWCmtk3KVo=");
-    // /WEB-INF/views/locations/show.jspx(34,148) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(35,148) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/locations/show.jspx(34,148) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(35,148) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setId("s_gov_atlanta_cityvendors_domain_Location_vendor");
-    // /WEB-INF/views/locations/show.jspx(34,148) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(35,148) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setField("vendor");
     _jspx_th_field_005fdisplay_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
@@ -171,13 +172,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
     _jspx_th_field_005fdisplay_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/locations/show.jspx(35,154) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(36,154) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setZ("uP4vxhdjAW2IwLgPLayISVqA8BY=");
-    // /WEB-INF/views/locations/show.jspx(35,154) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(36,154) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/locations/show.jspx(35,154) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(36,154) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setId("s_gov_atlanta_cityvendors_domain_Location_longitude");
-    // /WEB-INF/views/locations/show.jspx(35,154) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(36,154) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setField("longitude");
     _jspx_th_field_005fdisplay_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
@@ -193,13 +194,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
     _jspx_th_field_005fdisplay_005f3.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/locations/show.jspx(36,152) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(37,152) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setZ("mZelnyWeaBHVw93dzTigrggRBuE=");
-    // /WEB-INF/views/locations/show.jspx(36,152) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(37,152) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/locations/show.jspx(36,152) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(37,152) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setId("s_gov_atlanta_cityvendors_domain_Location_latitude");
-    // /WEB-INF/views/locations/show.jspx(36,152) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/locations/show.jspx(37,152) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setField("latitude");
     _jspx_th_field_005fdisplay_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
