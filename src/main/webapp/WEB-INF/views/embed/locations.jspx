@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><div version="2.0" xmlns:embed="urn:jsptagdir:/WEB-INF/tags/embed" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util">
+    <jsp:output omit-xml-declaration="yes"/>
+    <util:panel id="title" title="Locations">
+        <embed:map id="map_locations" location="400 Park Dr NE, Atlanta, GA" z="7bY1noK+fy0pwBb7m1ESpqywf4I="/>
+    </util:panel>
+</div>
