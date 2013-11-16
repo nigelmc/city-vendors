@@ -18,12 +18,12 @@ public class Location {
     @Size(min = 1)
     private String name;
 
-    @NotNull
-    private Integer longitude;
-
-    @NotNull
-    private Integer latitude;
-
     @ManyToOne
     private Vendor vendor;
+
+    @NotNull
+    private Float longitude;
+
+    @NotNull
+    private Float latitude;
 }

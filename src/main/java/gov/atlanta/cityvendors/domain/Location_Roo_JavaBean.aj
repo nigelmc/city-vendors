@@ -16,28 +16,28 @@ privileged aspect Location_Roo_JavaBean {
         this.name = name;
     }
     
-    public Integer Location.getLongitude() {
-        return this.longitude;
-    }
-    
-    public void Location.setLongitude(Integer longitude) {
-        this.longitude = longitude;
-    }
-    
-    public Integer Location.getLatitude() {
-        return this.latitude;
-    }
-    
-    public void Location.setLatitude(Integer latitude) {
-        this.latitude = latitude;
-    }
-    
     public Vendor Location.getVendor() {
         return this.vendor;
     }
     
     public void Location.setVendor(Vendor vendor) {
         this.vendor = vendor;
+    }
+    
+    public Float Location.getLongitude() {
+        return this.longitude;
+    }
+    
+    public void Location.setLongitude(Float longitude) {
+        this.longitude = longitude;
+    }
+    
+    public Float Location.getLatitude() {
+        return this.latitude;
+    }
+    
+    public void Location.setLatitude(Float latitude) {
+        this.latitude = latitude;
     }
     
 }
