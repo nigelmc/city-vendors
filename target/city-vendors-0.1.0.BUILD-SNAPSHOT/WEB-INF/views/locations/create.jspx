@@ -3,9 +3,9 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_gov_atlanta_cityvendors_domain_Location" modelAttribute="location" path="/locations" render="${empty dependencies}" z="mvrUsvdv+9iDB2OIQhlMqD4l4/I=">
         <field:input field="name" id="c_gov_atlanta_cityvendors_domain_Location_name" min="1" required="true" z="2IU7mvBLM1VGRxyBLsIfj+YhE/k="/>
-        <field:input field="longitude" id="c_gov_atlanta_cityvendors_domain_Location_longitude" required="true" validationMessageCode="field_invalid_integer" z="1z8fWzDAWkfoRFsXjAHHo4PsYQ0="/>
-        <field:input field="latitude" id="c_gov_atlanta_cityvendors_domain_Location_latitude" required="true" validationMessageCode="field_invalid_integer" z="i2ZOiC0cUba8Xi0I9hSHUwl+rLg="/>
         <field:select field="vendor" id="c_gov_atlanta_cityvendors_domain_Location_vendor" itemValue="id" items="${vendors}" path="/vendors" z="uKFJFo38y32pELoMWXXMgnTJFZ0="/>
+        <field:input field="longitude" id="c_gov_atlanta_cityvendors_domain_Location_longitude" required="true" validationMessageCode="field_invalid_number" z="HKWgpezvzQdhTIpP+Wc4OFIptQ0="/>
+        <field:input field="latitude" id="c_gov_atlanta_cityvendors_domain_Location_latitude" required="true" validationMessageCode="field_invalid_number" z="x0+db2cWGE2yK3tZ92r2OAOCs3s="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_gov_atlanta_cityvendors_domain_Location" render="${not empty dependencies}" z="cohpvCeA+k//q2CNfNBqEHNthog="/>
 </div>

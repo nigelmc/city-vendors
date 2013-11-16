@@ -1,10 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><div version="2.0" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form">
+<?xml version="1.0" encoding="UTF-8"?><div version="2.0" 
+    xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" 
+    xmlns:jsp="http://java.sun.com/JSP/Page" 
+    xmlns:spring="http://www.springframework.org/tags"
+    xmlns:page="urn:jsptagdir:/WEB-INF/tags/form">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
+    <jsp:output omit-xml-declaration="yes" />  
+   	
+   	<script type="text/javascript">
+
+      function initialize() {
+    	var latitude = document.getElementById("_s_gov_atlanta_cityvendors_domain_Location_latitude_latitude_id").innerHTML;
+    	var longitude = document.getElementById("_s_gov_atlanta_cityvendors_domain_Location_longitude_longitude_id").innerHTML;
+    	var myLatlng = new google.maps.LatLng(latitude,longitude);
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            title:"Vendor Location"
+        });
+        marker.setMap(map);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);	
+    </script>
+
+    
     <page:show id="ps_gov_atlanta_cityvendors_domain_Location" object="${location}" path="/locations" z="DtKQhsLTqU5XdkmT9i8p2IgdmCY=">
         <field:display field="name" id="s_gov_atlanta_cityvendors_domain_Location_name" object="${location}" z="oLATcreMWr5yHyT4rIsHsRf4oy8="/>
+        <field:display field="vendor" id="s_gov_atlanta_cityvendors_domain_Location_vendor" object="${location}" z="Ctlfrz+mbM90O9FLFiWCmtk3KVo="/>
         <field:display field="longitude" id="s_gov_atlanta_cityvendors_domain_Location_longitude" object="${location}" z="uP4vxhdjAW2IwLgPLayISVqA8BY="/>
         <field:display field="latitude" id="s_gov_atlanta_cityvendors_domain_Location_latitude" object="${location}" z="mZelnyWeaBHVw93dzTigrggRBuE="/>
-        <field:display field="vendor" id="s_gov_atlanta_cityvendors_domain_Location_vendor" object="${location}" z="Ctlfrz+mbM90O9FLFiWCmtk3KVo="/>
+        <div id="map-canvas" style="width: 550px; height: 450px;">
+        	<button
+        		onclick="initialize();">Show Map
+        	</button>        		
+        </div>
     </page:show>
 </div>

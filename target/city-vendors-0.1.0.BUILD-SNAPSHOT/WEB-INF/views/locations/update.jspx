@@ -3,8 +3,8 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_gov_atlanta_cityvendors_domain_Location" modelAttribute="location" path="/locations" versionField="Version" z="+xJ5xuJti6e4Bw5iDZQAnoUaDAU=">
         <field:input field="name" id="c_gov_atlanta_cityvendors_domain_Location_name" min="1" required="true" z="2IU7mvBLM1VGRxyBLsIfj+YhE/k="/>
-        <field:input field="longitude" id="c_gov_atlanta_cityvendors_domain_Location_longitude" required="true" validationMessageCode="field_invalid_integer" z="1z8fWzDAWkfoRFsXjAHHo4PsYQ0="/>
-        <field:input field="latitude" id="c_gov_atlanta_cityvendors_domain_Location_latitude" required="true" validationMessageCode="field_invalid_integer" z="i2ZOiC0cUba8Xi0I9hSHUwl+rLg="/>
         <field:select field="vendor" id="c_gov_atlanta_cityvendors_domain_Location_vendor" itemValue="id" items="${vendors}" path="/vendors" z="uKFJFo38y32pELoMWXXMgnTJFZ0="/>
+        <field:input field="longitude" id="c_gov_atlanta_cityvendors_domain_Location_longitude" required="true" validationMessageCode="field_invalid_number" z="HKWgpezvzQdhTIpP+Wc4OFIptQ0="/>
+        <field:input field="latitude" id="c_gov_atlanta_cityvendors_domain_Location_latitude" required="true" validationMessageCode="field_invalid_number" z="x0+db2cWGE2yK3tZ92r2OAOCs3s="/>
     </form:update>
 </div>

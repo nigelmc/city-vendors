@@ -4,9 +4,9 @@
     <page:list id="pl_gov_atlanta_cityvendors_domain_Location" items="${locations}" z="oedFP893+HU6jbJmXsjUY0Br6CY=">
         <table:table data="${locations}" id="l_gov_atlanta_cityvendors_domain_Location" path="/locations" z="qkSE00q+/pGJUNAhdh06JmrJKhs=">
             <table:column id="c_gov_atlanta_cityvendors_domain_Location_name" property="name" z="8ThkBMo3pY2V8T5VyO40YE8hlaI="/>
+            <table:column id="c_gov_atlanta_cityvendors_domain_Location_vendor" property="vendor" z="blR179c9TigDftP92kOQ8J74yOc="/>
             <table:column id="c_gov_atlanta_cityvendors_domain_Location_longitude" property="longitude" z="oEvICoBho9WI8AoVkTbpNdqSWDY="/>
             <table:column id="c_gov_atlanta_cityvendors_domain_Location_latitude" property="latitude" z="TcCtuIDv5lQI+EbMFX0+KF5iTIs="/>
-            <table:column id="c_gov_atlanta_cityvendors_domain_Location_vendor" property="vendor" z="blR179c9TigDftP92kOQ8J74yOc="/>
         </table:table>
     </page:list>
 </div>
